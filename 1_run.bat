@@ -1,0 +1,1 @@
+manage.exe runserver 80 --noreload

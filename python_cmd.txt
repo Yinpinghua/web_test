@@ -1,0 +1,3 @@
+pip install pyinstaller 先安装这个
+pyinstaller -F -c manage.py 编译成exe
+python manage.py runserver 8001 --noreload 命令含启动 再pycharm里面
