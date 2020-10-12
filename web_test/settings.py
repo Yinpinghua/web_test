@@ -101,6 +101,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+MIDDLEWARE_CLASSES = (
+    'django.middleware.common.CommonMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+)
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
