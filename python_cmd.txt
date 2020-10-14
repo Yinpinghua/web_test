@@ -6,4 +6,7 @@ python manage.py migrate 生成表
 python manage.py startapp app 创建新的模块
 manage.py createsuperuser 创建administator 账号和密码
 pyinstaller -D -c manage.py -n web_test
+python manage.py makemigrations 生成出 app模块中的migrations
 makemigrations app (按下 tool中的run mangager.py)
+
+python manage.py migrate 生成app模块表
