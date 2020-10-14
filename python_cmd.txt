@@ -2,5 +2,7 @@ pip install pyinstaller 先安装这个
 pyinstaller -F -c manage.py 编译成exe
 python manage.py runserver 8001 --noreload 命令含启动 再pycharm里面
 pyinstaller -F -c manage.py -n web_test.exe
-python manage.py migrate
+python manage.py migrate 生成表
+python manage.py startapp app 创建新的模块
+manage.py createsuperuser 创建administator 账号和密码
 pyinstaller -D -c manage.py -n web_test
